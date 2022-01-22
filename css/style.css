@@ -1,0 +1,70 @@
+body {
+    margin: 0; padding: 0px;
+}
+
+.none {
+    display: none;
+}
+
+#container {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Clock CSS */
+#clock {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.clocks {
+    font-size: 800%;
+    color: aliceblue;
+    font-weight: bolder;
+    text-shadow: 1px 1px red;
+}
+
+.clocks:hover {
+    color: black;
+}
+
+.date {
+    text-shadow: 1px 1px red;
+    font-size: 150%;
+    text-align: center;
+    color: aliceblue 
+}
+
+.date:hover {
+    color: black;  
+}
+
+/* name css */
+
+.show-name {
+    text-align: center;
+    color:wheat;
+    font-weight: bold;
+    text-shadow: 1px 1px blue;
+}
+
+/* todo css */
+
+#todobox {
+    margin-right: 2%;
+    text-align: center;
+    list-style: none;
+}
+
+.xbutton {
+    font-size: 20%;
+}
+
+.xbutton:hover {  
+    background-color: black;
+}
