@@ -9,7 +9,7 @@ document.body.style =
 `
 width : 100%;
 height : auto;
-background-image: url("../image/${bag}.jpg");
+background-image: url("./../image/${bag}.jpg");
 background-repeat : no-repeat;
 background-size : cover;
 `
