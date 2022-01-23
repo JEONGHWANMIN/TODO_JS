@@ -22,6 +22,7 @@ function printToDo(todoItem){
     const span1 = document.createElement("span") ;
     const span2 = document.createElement("span") ;
     todoli.id = todoItem.id;
+    span1.className = "todo-list";
     span2.className = "xbutton";
     span1.innerText = todoItem.text;
     span2.innerText = "❌"

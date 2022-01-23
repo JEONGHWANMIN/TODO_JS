@@ -42,7 +42,7 @@ function successCallback(e) {
         let iconId = myJson.weather[0].id;
         console.log(iconId);
         console.log(); 
-        city_name.innerText = myJson.name == "Yach’on" ? "KR GwangJu" : myJson.name ;
+        city_name.innerText = myJson.name == "Yach’on" ? "GwangJu" : myJson.name ;
         city_temp.innerText = `${myJson.main.temp}℃ ${myJson.weather[0].main}`;
         cloud_icon.src = `https://openweathermap.org/img/wn/${getWhether(iconId)}@2x.png`;
     });
