@@ -36,7 +36,6 @@ function saveToDo(todo_obj) {
     localStorage.setItem( "data" , JSON.stringify(todo_arr));
 }
     
-
 todo_button.addEventListener("click" , (e) => {
     e.preventDefault();
     id += 1;

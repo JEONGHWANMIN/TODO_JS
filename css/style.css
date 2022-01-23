@@ -72,3 +72,17 @@ body {
 .xbutton:hover {  
     background-color: black;
 }
+
+#temp {
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cloudIcon {
+    margin-left: 30%;
+    text-align: center;
+    width: 50%;
+    height: 70%;
+}
