@@ -28,13 +28,11 @@ function getWhether(iconId) {
     } 
 }
 
-const API_KEY = `fb687eb70b4436155c18e311c394608c`;
-
 function successCallback(e) {
     console.log(e);
     const lat = e.coords.latitude;
     const lon = e.coords.longitude;
-    const URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
+    const URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=fb687eb70b4436155c18e311c394608c&units=metric`;
     fetch(URL).then( response => {
         return response.json()
     }).then( myJson => {    
