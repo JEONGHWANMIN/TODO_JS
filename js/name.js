@@ -17,9 +17,6 @@ btn.addEventListener( "click" , (e) => {
     show_name.classList.remove("none");
 })
 
-console.log(typeof localStorage.getItem("name"));
-console.log(localStorage.getItem("name"));
-
 if (localStorage.getItem("name")) {
     form.classList.add("none");
     show_name.innerText = `Hello ${localStorage.getItem("name")}`;
