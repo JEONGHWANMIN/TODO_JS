@@ -1,5 +1,4 @@
 # JS를 이용한 TODO_List 
-<img src="./preview.jpg" width="600px" height="300px" />
 
 ## 기능 
 1. Math.Random() 함수를 이용해서 랜덤하게 바뀌는 배경
